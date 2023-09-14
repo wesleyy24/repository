@@ -12,6 +12,7 @@ Boolean firstTime = true;
 String difficulty = "Normal";
 Boolean refreshUI = false;
 Boolean endScreen = false;
+PImage logo;
 
 void setLifetime(){
   if (difficulty == "Easy"){
@@ -25,6 +26,8 @@ void setLifetime(){
 
 
 void setup() {
+  size(400,400);
+  logo = loadImage("logo.jpg");
   size(800, 600);
   background(255);
   targetX = width / 2;
@@ -104,7 +107,9 @@ void displayStartScreen() {
   }
   if (firstTime) {
     textSize(50);
-        text("USO", width / 2, height / 2.6);
+        //text("USO", width / 2, height / 2.6);
+         image(logo, 0, 0);
+         image(logo, 100, 0, width/1.3, height/1.3);
         textSize(25);
     text("Druk op 'E' om moeilijkheid te veranderen.", width / 2, height / 1.7);
     text("Moeilijkheid: " + difficulty, width / 2, height / 1.4);
