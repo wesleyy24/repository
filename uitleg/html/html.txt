@@ -1,0 +1,13 @@
+● Koppen (<h1>, <h2>, ... <h6>)
+
+● Paragrafen (<p>)
+
+● Lijsten (<ul>, <ol>, <li>)
+
+● Links (<a>)
+
+● Afbeeldingen (<img>)
+
+● Tabellen (<table>, <tr>, <td>, <th>)
+
+● Formulieren (<form>, <input>, <select>, <textarea>, <button>, ...)
